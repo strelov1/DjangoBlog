@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {{ article.title }}
+{% endblock %}
+
+{% block header %}
+    {{ article.title }}
+{% endblock %}
+
+{% block content %}
+<div>
+    {{ article.content }}
+</div>
+<div>
+    {{ article.create_at }}
+</div>
+{% endblock %}
